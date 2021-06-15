@@ -21,6 +21,6 @@ class ExtraInfoForm(ModelForm):
 
     class Meta(object):
         model = ExtraInfo
-        fields = ('age', 'birth_month', 'sex','studies','expectations','user_environment')
-        labels = {'age': _("Varsta"), 'birth_month': _("Luna nasterii"), 'sex': _("Sex"),'studies': _("Studii"),'expectations': _("Asteptari in urma absolvirii"),'user_environment': _("Mediu")}
+        fields = ('age', 'birth_month', 'sex','studies','job','expectations','user_environment')
+        labels = {'age': _("Varsta"), 'birth_month': _("Luna nasterii"), 'sex': _("Sex"),'job': _("Job"),'studies': _("Studii"),'expectations': _("Asteptari in urma absolvirii"),'user_environment': _("Mediu")}
         help_text = {'age': _("Te rugam selectează o optiune"), 'birth_month': _("Te rugam selectează o optiune"), 'sex': _("Te rugam selectează o optiune"),'studies': _("Te rugam selectează o optiune"),'expectations': _("Te rugam selectează o optiune"), 'user_environment': _("Te rugam selectează o optiune")}
