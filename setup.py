@@ -27,7 +27,7 @@ from setuptools import setup
 # Main ##############################################################
 
 setup(
-    name='custom-form-app',
+    name='new-fields-Edx',
     version='1.0',
     description='LMS - Custom Registration Extension Form',
     packages=['custom_reg_form'],
