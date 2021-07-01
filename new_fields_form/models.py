@@ -103,5 +103,5 @@ class ExtraInfo(models.Model):
     )    
     
     def __str__(self):
-        result = '{0.user} {0.age} {0.month} {0.sex} {0.studies} {0.job} {0.expectations} {0.user_environment}'
+        result = '{0.user} {0.age} {0.birth_month} {0.sex} {0.studies} {0.job} {0.expectations} {0.user_environment}'
         return result.format(self)

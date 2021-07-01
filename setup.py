@@ -30,7 +30,7 @@ setup(
     name='new-fields-Edx',
     version='1.0',
     description='LMS - Custom Registration Extension Form',
-    packages=['new_fields_form'],
+    packages=['custom_reg_form'],
     install_requires=[
         'Django',
     ],
