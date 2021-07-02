@@ -27,10 +27,10 @@ from setuptools import setup
 # Main ##############################################################
 
 setup(
-    name='new-fields-Edx',
+    name='test-new-fields',
     version='1.0',
-    description='LMS - Custom Registration Extension Form',
-    packages=['custom_reg_form'],
+    description='TEST LMS - Custom Registration Extension Form',
+    packages=['test_new_fields_form'],
     install_requires=[
         'Django',
     ],
